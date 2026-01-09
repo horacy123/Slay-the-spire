@@ -1,11 +1,12 @@
 using UnityEngine;
+using TMPro;
 
 public class CardView : MonoBehaviour
 {
-   [serialized] private TMP_Text title;
-   [serialized] private TMP_Text description;
-   [serialized] private TMP_Text mana;
-   [serialized] private SpriteRenderer imageSR;
-   [serialized] private GameObject wrapper;
+   [SerializeField] private TMP_Text title;
+   [SerializeField] private TMP_Text description;
+   [SerializeField] private TMP_Text mana;
+   [SerializeField] private SpriteRenderer imageSR;
+   [SerializeField] private GameObject wrapper;
 
 }
